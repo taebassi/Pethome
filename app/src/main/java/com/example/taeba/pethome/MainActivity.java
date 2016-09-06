@@ -3,7 +3,7 @@ package com.example.taeba.pethome;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class LogInActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

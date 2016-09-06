@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.taeba.pethome.LogInActivity"
+    tools:context=".MainActivity"
     android:background="@android:color/background_light">
 
     <LinearLayout
@@ -54,19 +54,7 @@
                 android:hint="Password"
                 android:layout_gravity="center_horizontal" />
 
-            <com.spark.submitbutton.SubmitButton
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Submit"
-                android:textColor="@color/gray"
-                app:sub_btn_background="@color/white"
-                app:sub_btn_duration="3000"
-                app:sub_btn_line_color="@color/green"
-                app:sub_btn_ripple_color="@color/green"
-                app:sub_btn_tick_color="@color/white"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="40dp"
-                android:textSize="20dp" />
+            
 
             <TextView
                 android:layout_width="wrap_content"
